@@ -1,5 +1,6 @@
 public class encryptRecordId {
     public String acctOwnerAssign(String recId) {
+    'VsA!h@66WQ9bsAJK'
         String encryptValue = ''; 
         CustomerKeys__mdt k = [SELECT key__c  FROM CustomerKeys__mdt  limit 1];
         Blob data = Blob.valueOf(recId);
